@@ -1,5 +1,10 @@
 # 📊 Causal Inference for Policy Evaluation: Job Training → Earnings
 
+[![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?logo=streamlit&logoColor=white)](https://streamlit.io/) 
+[![Python](https://img.shields.io/badge/Python-3.9%2B-blue?logo=python&logoColor=white)](https://www.python.org/) 
+[![Plotly](https://img.shields.io/badge/Plotly-239120?logo=plotly&logoColor=white)](https://plotly.com/) 
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
 An interactive **Streamlit dashboard** that applies causal inference methods to evaluate the impact of a U.S. job training program on participants’ earnings (Lalonde/NSW dataset).
 
 This project demonstrates how causal inference can move beyond correlation to provide **policy-relevant, interpretable insights**.
@@ -41,13 +46,10 @@ If the dataset is unavailable, the app falls back to a synthetic dataset so it a
 ---
 
 ## ⚡ Quickstart
-
 Clone the repo and run locally:
 ```bash
 git clone https://github.com/sam-913/causal-policy-eval.git
 cd causal-policy-eval
 python -m venv .venv && source .venv/bin/activate   # or use conda
-
-
 pip install -r requirements.txt
 streamlit run app.py
