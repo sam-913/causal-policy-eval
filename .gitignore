@@ -1,0 +1,23 @@
+cat > .gitignore << 'EOF'
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Envs
+.venv/
+venv/
+.env
+*.env
+
+# VSCode / IDE
+.vscode/
+.idea/
+
+# Streamlit secrets
+.streamlit/secrets.toml
+EOF
