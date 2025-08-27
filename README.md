@@ -5,6 +5,10 @@
 [![Plotly](https://img.shields.io/badge/Plotly-239120?logo=plotly&logoColor=white)](https://plotly.com/) 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
+
+🌐 **Live Demo** → [View on Streamlit Cloud](https://causal-policy-eval-c9nygbkd3tvopu7rnqi5a7.streamlit.app/)
+
+
 An interactive **Streamlit dashboard** that applies causal inference methods to evaluate the impact of a U.S. job training program on participants’ earnings (Lalonde/NSW dataset).
 
 This project demonstrates how causal inference can move beyond correlation to provide **policy-relevant, interpretable insights**.
